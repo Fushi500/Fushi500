@@ -1,5 +1,7 @@
 ## Hi there 👋
-
+My name is Serban Darius !
+But you can call me Fushi
+I'm new to git.
 <!--
 **Fushi500/Fushi500** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
