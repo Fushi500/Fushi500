@@ -1,8 +1,6 @@
 # Darius Șerban
 
-I graduated in Computer Science from the Petroleum-Gas University of Ploiești, Romania, in 2026. I build web applications and run them on my own Linux server.
-
-My portfolio, [plainsite.dev](https://plainsite.dev/en/), has a write-up of most projects on this page. You can reach me at serbdari98@gmail.com.
+I graduated in Computer Science in 2026, in Ploiești, Romania. I build web applications and run them on my own Linux server. My portfolio is [plainsite.dev](https://plainsite.dev/en/) and my email is serbdari98@gmail.com.
 
 <table width="100%">
   <tr>
@@ -31,27 +29,27 @@ My portfolio, [plainsite.dev](https://plainsite.dev/en/), has a write-up of most
 
 Client repositories are private.
 
-- **[Dayro Distribution website](https://dayrodistribution.com)**. I built a bilingual catalogue and quote-request site for a Romanian distributor of construction fixings. It lists 277 products in 1,680 variants and shows whether each one is in stock. I host it on my own Ubuntu server. My portfolio has the [write-up](https://plainsite.dev/en/projects/dayro-distribution-website/).
+- **[Dayro Distribution website](https://dayrodistribution.com)**. I built and host this bilingual catalogue of 277 products for a Romanian distributor of construction fixings.
   <br /><sub>Astro, React, TypeScript, Playwright, GitHub Actions</sub>
-- **[Ordering app for a field sales team](https://plainsite.dev/en/projects/field-sales-ordering-app/)**. The app is in beta. Sales agents take orders on their phones. The office approves each order and exports it as XML for the accounting software. The app reads the accounting database and never writes to it.
+- **[Ordering app for a field sales team](https://plainsite.dev/en/projects/field-sales-ordering-app/)**. Sales agents take orders on their phones and the office approves them. The app reads the accounting database and never writes to it.
   <br /><sub>TypeScript, Fastify, SQLite, Firebird, Kotlin, Vitest</sub>
-- **Platform for youth sports clubs**. Two of us are building it. It gives clubs, coaches and parents one system for teams, attendance, payments and invoices. It runs on the web and as Android and iOS apps.
+- **Platform for youth sports clubs**. Two of us are building one system for clubs, coaches and parents, on the web and as Android and iOS apps.
   <br /><sub>TypeScript, Express, Prisma, PostgreSQL, React, Capacitor</sub>
 
 ## My own projects
 
-- **[dualspeakers](https://github.com/Fushi500/dualspeakers)**. It plays the same audio on two Windows outputs and keeps them aligned. I measured the offset with a microphone at the listening position. The median is -0.021 ms and the spread is 0.203 ms over five runs. It works but is not finished.
+- **[dualspeakers](https://github.com/Fushi500/dualspeakers)**. It plays the same audio on two Windows outputs, with a measured median offset of -0.021 ms between them.
   <br /><sub>C++20, WASAPI exclusive mode, CMake, 241 tests</sub>
-- **[Workspace](https://plainsite.dev/en/projects/workspace/)**. It is a self-hosted tracker with pages, tables, boards, a command-line tool and an API. I use it every day. The repository is private.
+- **[Workspace](https://plainsite.dev/en/projects/workspace/)**. I use this self-hosted tracker every day for pages, tables and boards.
   <br /><sub>TypeScript, Fastify, React, PostgreSQL, Docker Compose</sub>
-- **[LayerCure](https://plainsite.dev/en/projects/layercure/)**. It is a resin 3D-printing slicer with a desktop app. I am still building it.
+- **[LayerCure](https://plainsite.dev/en/projects/layercure/)**. I am building a resin 3D-printing slicer with a desktop app.
   <br /><sub>Rust</sub>
-- **[Macro Micro](https://plainsite.dev/en/projects/macro-micro/)**. It is a nutrition and fitness tracker for Romania. Version 1 was the subject of my bachelor thesis and is now retired. I am building version 2 as an Android app.
+- **[Macro Micro](https://plainsite.dev/en/projects/macro-micro/)**. Version 1 of this nutrition tracker was my bachelor thesis, and I am building version 2 as an Android app.
   <br /><sub>Version 1 ran on Flutter, Fastify, PostgreSQL, Redis, Meilisearch and Docker Compose</sub>
-- **[nutrition-label-llm](https://github.com/Fushi500/nutrition-label-llm)**. It is a LoRA fine-tune of Qwen2.5-14B that turns OCR text from EU nutrition labels into JSON. The repository holds a synthetic dataset of 50,000 examples and the QLoRA training script.
+- **[nutrition-label-llm](https://github.com/Fushi500/nutrition-label-llm)**. It is a LoRA fine-tune of Qwen2.5-14B that turns OCR text from EU nutrition labels into JSON.
   <br /><sub>Python, Unsloth, TRL</sub>
 
-Two smaller repositories are [exercises-api](https://github.com/Fushi500/exercises-api), which serves 872 exercises as static JSON on GitHub Pages, and [tourism-db](https://github.com/Fushi500/tourism-db), a MariaDB schema from my coursework.
+I also keep [exercises-api](https://github.com/Fushi500/exercises-api), a static JSON API of 872 exercises, and [tourism-db](https://github.com/Fushi500/tourism-db), a MariaDB coursework schema.
 
 ## What I work with
 
@@ -120,6 +118,6 @@ Two smaller repositories are [exercises-api](https://github.com/Fushi500/exercis
 
 ## How I work
 
-- I run my own Ubuntu server with systemd services, Docker Compose and Cloudflare Tunnel.
-- On client and larger projects, every change goes through a branch, a pull request and automated tests before it reaches `main`. The Dayro Distribution website has 31 merged pull requests. I commit small personal projects directly to `main`.
-- I use AI coding agents every day. I run Claude Code, Codex and Gemini from [T3 Code](https://github.com/pingdotgg/t3code). I write the brief and the checks, read the code they produce and test it on the running system.
+- I run my own Ubuntu server with systemd, Docker Compose and Cloudflare Tunnel.
+- On client projects, every change goes through a pull request and automated tests.
+- I run Claude Code, Codex and Gemini from [T3 Code](https://github.com/pingdotgg/t3code), and I read and test the code they produce.
