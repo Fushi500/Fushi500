@@ -118,6 +118,4 @@ I also keep [exercises-api](https://github.com/Fushi500/exercises-api), a static
 
 ## How I work
 
-- I run my own Ubuntu server with systemd, Docker Compose and Cloudflare Tunnel.
-- On client projects, every change goes through a pull request and automated tests.
-- I run Claude Code, Codex and Gemini from [T3 Code](https://github.com/pingdotgg/t3code), and I read and test the code they produce.
+I build software by directing AI coding agents. I work in [T3 Code](https://github.com/pingdotgg/t3code) with Claude Code, Codex and Gemini, on my own Ubuntu server and a Mac mini. I set the goal and make the decisions. The agents write the code on a branch and open a pull request that says how they verified it. Models from other providers review the changes that carry risk. I approve every deploy, and I judge the result on the running product.
