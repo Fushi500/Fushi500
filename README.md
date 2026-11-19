@@ -110,6 +110,9 @@ Two smaller repositories are [exercises-api](https://github.com/Fushi500/exercis
       <img alt="PyTorch" src="https://img.shields.io/badge/-PyTorch-111?style=flat-square&logo=pytorch&logoColor=EE4C2C" />
       <img alt="Hugging Face" src="https://img.shields.io/badge/-Hugging%20Face-111?style=flat-square&logo=huggingface&logoColor=FFD21E" />
       <img alt="Claude Code" src="https://img.shields.io/badge/-Claude%20Code-111?style=flat-square&logo=claude&logoColor=D97757" />
+      <img alt="Codex" src="https://img.shields.io/badge/-Codex-111?style=flat-square" />
+      <img alt="Gemini" src="https://img.shields.io/badge/-Gemini-111?style=flat-square&logo=googlegemini&logoColor=8E75B2" />
+      <img alt="T3 Code" src="https://img.shields.io/badge/-T3%20Code-111?style=flat-square" />
       <img alt="MCP" src="https://img.shields.io/badge/-MCP-111?style=flat-square&logo=modelcontextprotocol&logoColor=ffffff" />
     </td>
   </tr>
@@ -119,4 +122,4 @@ Two smaller repositories are [exercises-api](https://github.com/Fushi500/exercis
 
 - I run my own Ubuntu server with systemd services, Docker Compose and Cloudflare Tunnel.
 - On client and larger projects, every change goes through a branch, a pull request and automated tests before it reaches `main`. The Dayro Distribution website has 31 merged pull requests. I commit small personal projects directly to `main`.
-- I use AI coding agents every day. I write the brief and the checks, read the code they produce and test it on the running system.
+- I use AI coding agents every day. I run Claude Code, Codex and Gemini from [T3 Code](https://github.com/pingdotgg/t3code). I write the brief and the checks, read the code they produce and test it on the running system.
